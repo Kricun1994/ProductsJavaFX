@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.maksimov.MainController">
+   <children>
+      <Label layoutX="233.0" layoutY="14.0" text="Program Menu">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Button layoutX="200.0" layoutY="54.0" mnemonicParsing="false" onAction="#buttonRegistration" text="Registration Product">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="240.0" layoutY="108.0" mnemonicParsing="false" onAction="#buttonBuyProduct" text="Buy Product">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="229.0" layoutY="162.0" mnemonicParsing="false" onAction="#buttonDeleteProduct" text="Delete Product">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="243.0" layoutY="270.0" mnemonicParsing="false" onAction="#buttonMakeTransaction" text="Transaction">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="233.0" layoutY="216.0" mnemonicParsing="false" onAction="#buttonShowProduct" text="Show Product">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="CLOSED_HAND" />
+   </cursor>
+</AnchorPane>
